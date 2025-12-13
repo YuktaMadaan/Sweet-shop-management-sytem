@@ -1,5 +1,5 @@
 const request = require("supertest");
-const app = require("../app"); // 👈 path sahi hona chahiye
+const app = require("../app"); 
 
 describe("Health API", () => {
   it("should return API running", async () => {
