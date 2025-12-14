@@ -1,0 +1,12 @@
+body { font-family: Arial, Helvetica, sans-serif; margin: 0; padding: 0; background: #f7f7f7; }
+.container { max-width: 1000px; margin: 0 auto; padding: 20px; }
+header { display:flex; justify-content:space-between; align-items:center; margin-bottom:16px }
+.auth { display:flex; gap:16px }
+.card { background: #fff; padding:12px; border-radius:6px; box-shadow:0 2px 6px rgba(0,0,0,0.06) }
+.grid { display:grid; grid-template-columns: repeat(auto-fill,minmax(200px,1fr)); gap:12px; margin-top:12px }
+input { display:block; width:100%; padding:8px; margin:6px 0; }
+button { padding:8px 12px; margin-top:6px }
+.search { display:flex; gap:8px; align-items:center }
+.admin { margin-top:16px }
+.error { color: #b00020 }
+.message { color: green }

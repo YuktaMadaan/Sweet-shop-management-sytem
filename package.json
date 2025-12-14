@@ -7,6 +7,11 @@
     "dev": "nodemon backend/server.js",
     "test": "jest --runInBand"
   },
+  "jest": {
+    "setupFilesAfterEnv": ["./backend/tests/jest.setup.js"],
+    "testEnvironment": "node",
+    "testTimeout": 20000
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -22,6 +27,7 @@
   "devDependencies": {
     "jest": "^30.2.0",
     "nodemon": "^3.1.11",
-    "supertest": "^7.1.4"
+    "supertest": "^7.1.4",
+    "mongodb-memory-server": "^8.12.1"
   }
 }
